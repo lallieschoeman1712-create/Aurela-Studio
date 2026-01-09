@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aurela Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #f7f3ee;
+      color: #4b3621;
+    }
+    header {
+      padding: 24px;
+      text-align: center;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    .logo {
+      border: 2px dashed #b59b7a;
+      padding: 30px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+      font-style: italic;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .art {
+      background: white;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+    .art img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .art h3 {
+      margin: 10px 0 5px;
+    }
+    button {
+      background: #6f4e37;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #7a6652;
+    }
+  </style>
+</head>
+<body>
+
+<header>Aurela Studio</header>
+
+<div class="logo">Your Logo Here</div>
+
+<section class="gallery">
+  <div class="art">
+    <img src="https://via.placeholder.com/400x300" alt="Artwork">
+    <h3>Artwork Title</h3>
+    <p>R 0.00</p>
+    <button>Add to Cart</button>
+  </div>
+</section>
+
+<footer>
+  © Aurela Studio
+</footer>
+
+</body>
+  </html> 
